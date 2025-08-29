@@ -1,22 +1,17 @@
-import styled from 'styled-components';
-import GlobalStyles from '../src/globalStyles';
+import {Title, Slider, Dates, Content} from '@/components'
+import {GlobalStyles} from './GlobalStyles'
+import {AppContainer} from './styled'
 
-function App() {
-	return (
-		<>
-			<GlobalStyles />
-			<AppContainer>
-				<h1>React TypeScript styled components Webpack demo</h1>
-			</AppContainer>
-		</>
-	);
+export default function App() {
+  return (
+    <>
+      <GlobalStyles />
+      <AppContainer>
+        <Title />
+        <Dates />
+        <Slider />
+        <Content />
+      </AppContainer>
+    </>
+  )
 }
-
-export default App;
-
-const AppContainer = styled.div`
-	min-height: calc(100vh - 2 * 2rem);
-	display: grid;
-	align-content: center;
-	text-align: center;
-`;

@@ -12,10 +12,14 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@reduxjs/toolkit": "^2.8.2",
 		"core-js": "^3.21.1",
+		"gsap": "^3.13.0",
 		"react": "^19.1.1",
 		"react-dom": "^19.1.1",
-		"styled-components": "^5.3.3"
+		"react-redux": "^9.2.0",
+		"styled-components": "^5.3.3",
+		"swiper": "^11.2.10"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.17.5",
@@ -23,13 +27,15 @@
 		"@babel/preset-react": "^7.16.7",
 		"@babel/preset-typescript": "^7.16.7",
 		"@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
-		"@types/react": "^17.0.88",
-		"@types/react-dom": "^17.0.26",
+		"@types/react": "^18.3.24",
+		"@types/react-dom": "^18.3.7",
 		"@types/styled-components": "^5.1.23",
 		"babel-loader": "^8.2.3",
 		"babel-plugin-styled-components": "^2.0.6",
+		"css-loader": "^7.1.2",
 		"html-webpack-plugin": "^5.5.0",
 		"react-refresh": "^0.11.0",
+		"style-loader": "^4.0.0",
 		"ts-loader": "^9.2.6",
 		"typescript": "^5.9.2",
 		"webpack": "^5.69.1",

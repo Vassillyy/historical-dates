@@ -4,18 +4,17 @@
   "singleQuote": true,
   "trailingComma": "none",
   "printWidth": 80,
-  "plugins": ["prettier-plugin-svelte"],
   "overrides": [
     {
-      "files": "*.svelte",
+      "files": "*.tsx",
       "options": {
-        "parser": "svelte"
+        "parser": "typescript"
       }
     },
     {
-      "files": "*.css",
+      "files": "*.ts",
       "options": {
-        "parser": "css"
+        "parser": "typescript"
       }
     }
   ],
